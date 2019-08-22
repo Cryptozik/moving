@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="about-page">
+  <head>
+    <title>{{ site.author }}</title>
+  </head>
+  <img src="/assets/img/hodlfarmsheep.png" height="215px" width="220px" style="float:left;margin-left:25px;" />
+  <div class="home-title">
+    <p class="home-heading">{{ site.title }}</p>
+    <p class="home-sub-heading">{{- site.description | escape -}}</p>
+  </div>
+
+  <div class="about-content e-content" itemprop="articleBody" style="clear:left;">
+    {{ content }}
+  </div>
+</div>
