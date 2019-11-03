@@ -159,6 +159,17 @@
   margin-top: 50px;
 }
 
+.home-logo {
+  float:left;
+  margin-left: 25px;
+  height: 215px;
+  width: 220px;
+  @media (max-width: 500px) {
+    margin-left: 12px;
+    height: 107px;
+    width: 110px;
+  }
+}
 .home-sub-heading {
   margin-top: -0.6rem;
   color: lighten($text-color, 25%);
