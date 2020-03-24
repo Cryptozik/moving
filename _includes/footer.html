@@ -4,13 +4,14 @@
       <div class="footer-col-wrapper">
         <div class="footer-col">
           <ul class="contact-list">
-            <li class="p-name">
-                All usage subject to <a href="terms-and-conditions.html">terms and conditions</a>.
-              </li>
-              {%- if site.email -%}
-              <li>
-                  Email : <a class="u-email black-link" href="mailto:{{ site.email }}">{{ site.email }}</a> - Telegram: <a class="black-link" href="https://t.me/hodl_farm"><img src="/assets/img/t_logo.png" class="telegram-icon"/>t.me/hodl_farm</a></li>
-              {%- endif -%}
+            <li class="p-name">All usage subject to <a href="terms-and-conditions.html">terms and conditions</a>.</li>  
+            <div class="p-name">
+              <p style="display: inline-block">Contact us:</p>
+                  <a style="margin-left: 0.5em;" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a>
+                  <a style="margin-left: 0.5em;" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+                  <a style="margin-left: 0.5em;" href="https://{{site.telegram}}" target="_blank"><i class="fa fa-telegram"></i></a>
+          </div>
+          </li>
           </ul>
         </div>
       </div>
