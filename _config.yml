@@ -1,11 +1,12 @@
 title: Hodl.farm # The title of the blog
 author: Test_hodl_local
-email: admin@hodl.farm # your email shown in the footer
+email: hello@hodl.farm # your email shown in the footer
+telegram: t.me/hodl_farm
+twitter: "@hodl_farm"
 url: https://hodl.farm # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
   Fertile ground for your cryptos.
 favicon: "./favicon.ico" # set the favicon of the site 
-
 show_excerpts: false # set to true to show excerpts on the homepage
   
 # Moving date format
