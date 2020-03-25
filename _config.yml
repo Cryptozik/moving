@@ -15,8 +15,8 @@ moving:
   avatar_url: "assets/img/hodlfarmsheep.png" # avatar in about page
   about_you: Fertile ground for your cryptos.
   email: hello@hodl.farm # your email shown in the footer
+ # twitter: "@hodl_farm"
   telegram: t.me/hodl_farm
-  twitter: "@hodl_farm"
   date_format: "%b %d" # date format of posts in home page
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
