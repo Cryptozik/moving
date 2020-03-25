@@ -107,11 +107,11 @@
   text-decoration: underline;
 }
 
-.contact-box {
+.contact-box li{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -120,7 +120,9 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #d9d9d9;
+  margin-inline-start: 10px;
+}
+
+.contact-box .descr {
+  margin-right: 30px;
 }
