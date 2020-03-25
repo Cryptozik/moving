@@ -107,6 +107,9 @@
   text-decoration: underline;
 }
 
+.contact-box{
+  text-align: center;
+}
 .contact-box li{
   text-align: -webkit-match-parent;
   display: -webkit-box;
