@@ -4,19 +4,10 @@
       <div class="footer-col-wrapper">
         <div class="footer-col">
           <ul class="contact-list">
-            <li class="p-name">All usage subject to <a href="terms-and-conditions.html">terms and conditions</a>.</li>
-            <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
-            {% if site.twitter %}
-            <li class="twitter"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            {% else %}
-            <li class="twitter"><a href="https://twitter.com/hodl_farm" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            {% endif %}
-            <li class="telegram"><a href="https://{{site.telegram}}" target="_blank"><i class="fa fa-telegram"></i></a></li>
-            {%- if social.telegram -%}
-            <li><a class="black-link" href="https://t.me/{{ social.telegram | cgi_escape | escape }}">[Telegram]</a></li>
-            {%- endif -%}
+            <li class="p-name">All usage subject to <a href="terms-and-conditions.html">terms and conditions</a>.</li>  
           </ul>
         </div>
       </div>
     </div>
+  {% include contact-box.html %}
   </footer>
