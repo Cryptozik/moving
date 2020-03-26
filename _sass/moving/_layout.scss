@@ -145,6 +145,11 @@
   margin-top: -10px;
 }
 
+.home-heading a{
+  font-weight: 1000;
+  color: #595859ff;
+}
+
 .home-heading {
   font-weight: 1000;
   color: #595859ff;
@@ -175,7 +180,7 @@
   margin-top: -10px;
 }
 
-a .post-heading {
+.post-heading a {
   font-weight: 1000;
   color: #595859ff;
 }
@@ -216,6 +221,18 @@ a .post-heading {
 }
 
 .home-sub-heading {
+  margin-top: -0.6rem;
+  color: lighten($text-color, 25%);
+
+  @media (max-width: 500px) {
+    @include relative-font-size(0.8);
+  }
+
+  @include relative-font-size(1);
+  text-align: center;
+}
+
+.post-sub-heading {
   margin-top: -0.6rem;
   color: lighten($text-color, 25%);
 
