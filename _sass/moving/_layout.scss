@@ -223,6 +223,7 @@
 }
 
 .home-sub-heading {
+  margin-top: -1.5rem;
   color: lighten($text-color, 25%);
 
   @media (max-width: 500px) {
@@ -234,7 +235,7 @@
 }
 
 .post-sub-heading {
-  margin-top: -2.0rem;
+  margin-top: -1.5rem;
   color: lighten($text-color, 25%);
 
   @media (max-width: 500px) {
