@@ -171,6 +171,42 @@
   }
 }
 
+.post-title {
+  margin-top: -10px;
+}
+
+a .post-heading {
+  font-weight: 1000;
+  color: #595859ff;
+}
+
+ .post-heading {
+  font-weight: 1000;
+  color: #595859ff;
+
+  @media (max-width: 500px) {
+    margin-top: 20px;
+    @include relative-font-size(1.7);
+  }
+
+  @include relative-font-size(3.2);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.post-logo {
+  float:left;
+  margin-left: 25px;
+  height: 150px;
+  width: 155px;
+  @media (max-width: 500px) {
+    margin-left: 12px;
+    height: 107px;
+    width: 110px;
+  }
+}
+
+
 .telegram-icon {
   margin-bottom: 3px;
   margin-top: 0px;
