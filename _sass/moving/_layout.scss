@@ -148,6 +148,7 @@
 .home-heading a{
   font-weight: 1000;
   color: #595859ff;
+  text-decoration: none; 
 }
 
 .home-heading {
@@ -161,12 +162,12 @@
 
   @include relative-font-size(3.2);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .home-logo {
   float:left;
-  margin-left: 25px;
+  margin-left: 45px;
   height: 150px;
   width: 155px;
   @media (max-width: 500px) {
@@ -183,6 +184,7 @@
 .post-heading a {
   font-weight: 1000;
   color: #595859ff;
+  text-decoration: none;
 }
 
  .post-heading {
@@ -196,12 +198,12 @@
 
   @include relative-font-size(3.2);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .post-logo {
   float:left;
-  margin-left: 25px;
+  margin-left: 45px;
   height: 150px;
   width: 155px;
   @media (max-width: 500px) {
@@ -221,7 +223,6 @@
 }
 
 .home-sub-heading {
-  margin-top: -0.6rem;
   color: lighten($text-color, 25%);
 
   @media (max-width: 500px) {
@@ -233,7 +234,7 @@
 }
 
 .post-sub-heading {
-  margin-top: -0.6rem;
+  margin-top: -2.0rem;
   color: lighten($text-color, 25%);
 
   @media (max-width: 500px) {
