@@ -6,25 +6,9 @@ layout: default
       <p class="home-heading"><a href="{{site.url}}/">{{ site.title }}</a></p>
       <p class="home-sub-heading">{{- site.description | escape -}}</p>
 
-<article
-  class="post h-entry"
-  itemscope
-  itemtype="http://schema.org/BlogPosting"
->
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
-  <header class="post-header">
-    <div class="post-back">
-      <a class="black-link" href="{{site.url}}/blog">
-        ← {{ site.moving.back_to }}
-      </a>
-    </div>
-
-    <h3 class="post-title p-name" itemprop="name headline">
-      {{ post.date | date: "%Y-%m-%d" }}
+    <h1 class="post-title p-name" itemprop="name headline">
       {{ page.title | escape }}
-    </h3>
+    </h1>
     <p class="post-meta">
       <time
         class="dt-published"
