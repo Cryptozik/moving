@@ -18,7 +18,7 @@ moving:
  # twitter: "@hodl_farm"
   telegram: t.me/hodl_farm
   date_format: "%b %d" # date format of posts in home page
-  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+  back_to: "All blog posts" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
   social_links:
 # Build settings
