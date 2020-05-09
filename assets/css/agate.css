@@ -106,3 +106,7 @@
   color: inherit;
   text-decoration: underline;
 }
+
+h3 .h3-paragraph-top-margin {
+  margin-top: 2rem;
+}
